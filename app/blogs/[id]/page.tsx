@@ -173,7 +173,7 @@ const blogData = [
 
 export default function BlogPage({ params }: { params: { id: string } }) {
   const blog = blogData.find((b) => b.id === params.id);
-  const currentUrl = `https://rafidul-portfolio.vercel.app//blogs/${params.id}`;
+  const currentUrl = `https://portfolio-nazmul-hasan.vercel.app//blogs/${params.id}`;
   if (!blog) {
     notFound();
   }

@@ -12,8 +12,8 @@ const contactPage = () => {
     <div className="w-full">
       <PageTitle name="CONTACT ME" />
       <Grid colCount={12} className="mt-10">
-        <MotionDiv src="/images/ai-image-2.png" className="col-span-4 hidden md:flex" isTransparentBG isRoundedImage/>
-        <MotionDiv src="/images/ai-image-2.png" className="col-span-12 md:hidden flex flex-row items-center justify-center" isTransparentBG isRoundedImage height_width={200}/>
+        <MotionDiv src="/images/ai-image-1.jpg" className="col-span-4 hidden md:flex" isTransparentBG isRoundedImage/>
+        <MotionDiv src="/images/ai-image-1.jpg" className="col-span-12 md:hidden flex flex-row items-center justify-center" isTransparentBG isRoundedImage height_width={200}/>
         <Flex
           direction="col"
           className="w-full col-span-12 md:col-span-8"
@@ -39,7 +39,7 @@ const contactPage = () => {
               className="w-full text-center text-[12px] md:text-[16px] text-primary dark:text-cyan-500"
             />
             <Text
-              text="+8801990497796"
+              text="+8801755073552"
               isBold
               className="w-full text-center text-[12px] md:text-[16px] text-gray-700 dark:text-white "
             />
@@ -51,7 +51,7 @@ const contactPage = () => {
               className="w-full text-center text-[12px] md:text-[16px] text-primary dark:text-cyan-500"
             />
             <Text
-              text="Nazmul.Hasan@g.bracu.ac.bd"
+              text="nazmul.Hasan@g.bracu.ac.bd"
               isBold
               className="w-full text-center text-[12px] md:text-[16px] underline text-gray-700 dark:text-white"
             />

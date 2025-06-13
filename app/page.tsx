@@ -121,7 +121,7 @@ const HomePage = () => {
         <div>
           <div className="grid grid-cols-12">
             <MotionDiv
-              src="/images/hero-image.png"
+              src="/images/IMG_2827.jpg"
               isTransparentBG
               className="col-span-12 place-self-center md:hidden"
               isRoundedImage
@@ -164,9 +164,9 @@ const HomePage = () => {
               </div>
             </div>
             <MotionDiv
-              src="/images/hero-image.png"
+              src="/images/IMG_2827.jpg"
               isTransparentBG
-              className="md:col-span-5 place-self-end hidden md:flex md:w-[250px] lg:w-[400px] xl:w-[550px]"
+              className="md:col-span-5 place-self-end hidden md:flex md:w-[250px] lg:w-[400px] xl:w-[550px] mt-4"
               isRoundedImage
             />
           </div>

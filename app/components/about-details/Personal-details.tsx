@@ -10,7 +10,7 @@ const PersonalDetails = () => {
       <div>
         <div className="pb-6 flex flex-row justify-center">
           <MotionDiv
-            src="/images/image-1.png"
+            src="/images/IMG_2827.jpg"
             height_width={150}
             isRoundedImage
             isTransparentBG

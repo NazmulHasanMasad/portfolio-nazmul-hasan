@@ -12,11 +12,10 @@ import SkillBar from "../components/animations/SkillBar";
 import ProjectsCard from "../components/cards/ProjectsCard";
 import {
   FaFacebook,
-  FaInstagram,
   FaGithub,
-  FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import Details from "../components/about-details/Details";
 import Link from "next/link";
 
@@ -113,7 +112,7 @@ const AboutPage = () => {
           <div>
             <div className="flex flex-row items-center justify-center">
               <MotionDiv
-                src="/images/ai-image-1.png"
+                src="/images/ai-image-1.jpg"
                 isCircularBorder
                 isTransparentBG
                 isRoundedImage
@@ -121,24 +120,24 @@ const AboutPage = () => {
               />
             </div>
             <div className="flex w-full flex-row items-center justify-center mt-4 gap-x-4 mb-4">
-              <a href="https://www.facebook.com/rafidul.emon.50" target="_blank">
+              <a href="https://www.facebook.com/nazmul.hasan.masad" target="_blank">
                 <FaFacebook
                   color="#1877F2"
                   size={20}
                 />
               </a>
-              <a href="https://www.instagram.com/rafidulemon" target="_blank">
-                <FaInstagram
-                  color="#E1306C"
+              <a href="https://leetcode.com/u/user4533MM/" target="_blank">
+                <SiLeetcode 
+                  color="#ebb118"
                   size={20}
                 />
               </a>
-              <a href="https://github.com/Rafidulemon" target="_blank" className="dark:text-white text-gray-600">
+              <a href="https://github.com/NazmulHasanMasad" target="_blank" className="dark:text-white text-gray-600">
                 <FaGithub
                   size={20}
                 />
               </a>
-              <a href="https://www.linkedin.com/in/md-rafidul-islam-8b013118b/" target="_blank">
+              <a href="https://linkedin.com/in/nazmul-hasan-masad-63a16b143/" target="_blank">
                 <FaLinkedin
                   color="#0077B5"
                   size={20}
@@ -288,7 +287,7 @@ const AboutPage = () => {
           <div>
             <div className="flex flex-row items-center justify-center">
               <MotionDiv
-                src="/images/ai-image-1.png"
+                src="/images/ai-image-1.jpg"
                 isCircularBorder
                 isTransparentBG
                 isRoundedImage
@@ -296,24 +295,24 @@ const AboutPage = () => {
               />
             </div>
             <div className="flex w-full flex-row items-center justify-center md:mt-4 md:gap-x-4 lg:mt-8 lg:gap-x-8 xl:mt-8 xl:gap-x-8 mb-10">
-              <a href="https://www.facebook.com/rafidul.emon.50" target="_blank">
+              <a href="https://www.facebook.com/nazmul.hasan.masad" target="_blank">
                 <FaFacebook
                   color="#1877F2"
                   className="md:text-[24px] md:text-[28px] md:text-[30px]"
                 />
               </a>
-              <a href="https://www.instagram.com/rafidulemon" target="_blank">
-                <FaInstagram
-                  color="#E1306C"
+              <a href="https://leetcode.com/u/user4533MM/" target="_blank">
+                <SiLeetcode 
+                  color="#ebb118"
                   className="md:text-[24px] md:text-[28px] md:text-[30px]"
                 />
               </a>
-              <a href="https://github.com/Rafidulemon" target="_blank" className="dark:text-white text-gray-600">
+              <a href="https://github.com/NazmulHasanMasad" target="_blank" className="dark:text-white text-gray-600">
                 <FaGithub
                   className="md:text-[24px] md:text-[28px] md:text-[30px]"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/md-rafidul-islam-8b013118b/" target="_blank">
+              <a href="https://linkedin.com/in/nazmul-hasan-masad-63a16b143/" target="_blank">
                 <FaLinkedin
                   color="#0077B5"
                   className="md:text-[24px] md:text-[28px] md:text-[30px]"
