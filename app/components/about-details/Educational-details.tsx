@@ -6,7 +6,7 @@ const EducationalDetails =() => {
     <div className="flex flex-col p-10 rounded shadow-lg shadow-teal-700 gap-10 dark:bg-black bg-white">
       <div className="flex flex-col">
         <Text
-          text="B.SC. in Computer Science & Engineering"
+          text="B.SC. in Computer Science"
           isBold
           className="text-primary_dark dark:text-cyan-500 mb-4 text-[22px]"
         />
@@ -16,10 +16,10 @@ const EducationalDetails =() => {
           className="text-primary dark:text-cyan-200 text-[16px]"
         />
         <Text
-          text="Computer Science & Engineering"
+          text="Computer Science"
           className="text-gray-700 dark:text-white text-[14px]"
         />
-        <Text text={`Passing Year: 2020`} className="text-gray-600 dark:text-white text-[14px]" />
+        <Text text={`Passing Year: 2021`} className="text-gray-600 dark:text-white text-[14px]" />
       </div>
 
       <div className="flex flex-col">
@@ -29,7 +29,7 @@ const EducationalDetails =() => {
           className="text-primary_dark dark:text-cyan-500 mb-4 text-[22px]"
         />
         <Text
-          text="Govt. City College, Chittagong"
+          text="Cambrian College"
           isBold
           className="text-primary dark:text-cyan-200 text-[16px]"
         />
@@ -37,7 +37,7 @@ const EducationalDetails =() => {
           text="Science"
           className="text-gray-700 dark:text-white text-[14px]"
         />
-        <Text text={`Passing Year: 2015`} className="text-gray-600 dark:text-white text-[14px]" />
+        <Text text={`Passing Year: 2013`} className="text-gray-600 dark:text-white text-[14px]" />
       </div>
 
       <div className="flex flex-col">
@@ -47,7 +47,7 @@ const EducationalDetails =() => {
           className="text-primary_dark dark:text-cyan-500 mb-4 text-[22px]"
         />
         <Text
-          text="Abdus Sobhan Rahat Ali High School, Patiya, Chittagong"
+          text="Daudkandi Adarsha Pilot High School"
           isBold
           className="text-primary dark:text-cyan-200 text-[16px]"
         />
@@ -55,7 +55,7 @@ const EducationalDetails =() => {
           text="Science"
           className="text-gray-700 dark:text-white text-[14px]"
         />
-        <Text text={`Passing Year: 2013`} className="text-gray-600 dark:text-white text-[14px]" />
+        <Text text={`Passing Year: 2011`} className="text-gray-600 dark:text-white text-[14px]" />
       </div>
     </div>
   );

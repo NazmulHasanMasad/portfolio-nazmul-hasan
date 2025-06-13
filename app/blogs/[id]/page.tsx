@@ -37,7 +37,7 @@ const blogData = [
     description_summary:
       "Learn how to set up Next.js App Router with next-intl for seamless translation and internationalization.",
     image: "/images/blogs/next-intl.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "2",
@@ -47,7 +47,7 @@ const blogData = [
     description_summary:
       "This guide explains how to implement theme switching in a Next.js app with persistence.",
     image: "/images/blogs/next_theme.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "3",
@@ -57,7 +57,7 @@ const blogData = [
     description_summary:
       "Next.js offers SSR, SSG, and more to build fast, scalable applications. Here's why it’s the best choice.",
     image: "/images/blogs/next.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "4",
@@ -67,7 +67,7 @@ const blogData = [
     description_summary:
       "Discover the advantages of tRPC and how it improves API development by providing type-safety.",
     image: "/images/blogs/trpc.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "5",
@@ -77,7 +77,7 @@ const blogData = [
     description_summary:
       "Explore the trends and predictions shaping the future of Artificial Intelligence.",
     image: "/images/blogs/future_of_ai.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "6",
@@ -87,7 +87,7 @@ const blogData = [
     description_summary:
       "Claude represents the next level of AI assistants, pushing the boundaries of human-computer interaction.",
     image: "/images/blogs/claude_ai.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "7",
@@ -97,7 +97,7 @@ const blogData = [
     description_summary:
       "Explore the exclusive features and advantages of upgrading to ChatGPT Premium.",
     image: "/images/blogs/chatgpt_premium.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "8",
@@ -107,7 +107,7 @@ const blogData = [
     description_summary:
       "The Metaverse is revolutionizing digital interaction. Here's what the future holds.",
     image: "/images/blogs/metaverse.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "9",
@@ -117,7 +117,7 @@ const blogData = [
     description_summary:
       "Cryptocurrency is rapidly changing the finance industry. Explore its future potential and risks.",
     image: "/images/blogs/crypto_future.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "10",
@@ -127,7 +127,7 @@ const blogData = [
     description_summary:
       "AI is changing digital marketing forever. Learn how marketers can stay ahead in the age of automation.",
     image: "/images/blogs/digital_marketing_ai.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "11",
@@ -137,7 +137,7 @@ const blogData = [
     description_summary:
       "Master the core principles of UI/UX design for creating seamless and engaging web experiences.",
     image: "/images/blogs/ui_ux.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "12",
@@ -147,7 +147,7 @@ const blogData = [
     description_summary:
       "Software entrepreneurship offers huge potential. Learn how to succeed in this competitive field.",
     image: "/images/blogs/software_entrepreneurship.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "13",
@@ -157,7 +157,7 @@ const blogData = [
     description_summary:
       "Bangladesh is a hotbed for tech startups. Discover new business opportunities in the growing tech market.",
     image: "/images/blogs/bangladesh_tech.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
   {
     id: "14",
@@ -167,7 +167,7 @@ const blogData = [
     description_summary:
       "DeepSeek AI is an emerging large language model that challenges ChatGPT. Explore its capabilities, differences, and limitations.",
     image: "/images/blogs/deepseek.jpg",
-    author: "Md. Rafidul Islam",
+    author: "Nazmul Hasan",
   },
 ];
 

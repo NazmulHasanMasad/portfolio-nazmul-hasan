@@ -149,7 +149,7 @@ const AboutPage = () => {
         </div>
         <div className="flex flex-col justify-start text-center mt-4">
           <Text
-            text="Md. Rafidul Islam"
+            text="Nazmul Hasan"
             isBold
             className="text-primary_dark text-[16px] dark:text-cyan-300 mb-4"
           />
@@ -168,7 +168,7 @@ const AboutPage = () => {
                 className="mr-4 inline-block align-middle"
               />
               <Text
-                text="Patiya, Chittagong, Bangladesh"
+                text="1212 Dhaka , Bangladesh"
                 className="text-gray-700 inline-block align-middle dark:text-white text-[12px]"
               />
             </div>
@@ -179,18 +179,18 @@ const AboutPage = () => {
                 className="mr-4 inline-block align-middle"
               />
               <Text
-                text="+8801990497796"
+                text="+8801755073552"
                 className="text-gray-700 inline-block align-middle dark:text-white text-[14px]"
               />
             </div>
-            <Link href={`mailto:rafidulemon@gmail.com`} className="mb-2">
+            <Link href={`mailto:Nazmul.Hasan@g.bracu.ac.bd`} className="mb-2">
               <MdOutlineEmail
                 size={18}
                 color="#00BCD4"
                 className="mr-4 inline-block align-middle"
               />
               <Text
-                text="rafidulemon@gmail.com"
+                text="Nazmul.Hasan@g.bracu.ac.bd"
                 className="text-gray-700 inline-block align-middle dark:text-white text-[14px]"
               />
             </Link>
@@ -229,7 +229,7 @@ const AboutPage = () => {
       <Grid colCount={3} className="w-full mt-[60px] hidden md:grid">
         <div className="flex flex-col justify-start">
           <Text
-            text="Md. Rafidul Islam"
+            text="Nazmul Hasan"
             isBold
             className="text-primary_dark md:text-[20px] lg:text-[22px] xl:text-[24px] dark:text-cyan-300 mb-4"
           />
@@ -248,7 +248,7 @@ const AboutPage = () => {
                 className="mr-4 inline-block align-middle"
               />
               <Text
-                text="Patiya, Chittagong, Bangladesh"
+                text="1212 Dhaka , Bangladesh"
                 className="text-gray-700 inline-block align-middle dark:text-white md:text-[14px] lg:text-[16px] xl:text-[18px]"
               />
             </div>
@@ -259,18 +259,18 @@ const AboutPage = () => {
                 className="mr-4 inline-block align-middle"
               />
               <Text
-                text="+8801990497796"
+                text="+8801755073552"
                 className="text-gray-700 inline-block align-middle dark:text-white md:text-[14px] lg:text-[16px] xl:text-[18px]"
               />
             </div>
-            <Link href={`mailto:rafidulemon@gmail.com`}>
+            <Link href={`mailto:Nazmul.Hasan@g.bracu.ac.bd`}>
               <MdOutlineEmail
                 size={24}
                 color="#00BCD4"
                 className="mr-4 inline-block align-middle"
               />
               <Text
-                text="rafidulemon@gmail.com"
+                text="Nazmul.Hasan@g.bracu.ac.bd"
                 className="text-gray-700 inline-block align-middle dark:text-white md:text-[14px] lg:text-[16px] xl:text-[18px]"
               />
             </Link>

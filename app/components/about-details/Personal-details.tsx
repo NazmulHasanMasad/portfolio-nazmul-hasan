@@ -24,26 +24,20 @@ const PersonalDetails = () => {
             <Text text="Name " isBold />
           </div>
           <div>
-            <Text text="Md. Rafidul Islam" />
-          </div>
-          <div>
-            <Text text="Occupation " isBold />
-          </div>
-          <div>
-            <Text text="Software Engineer" />
+            <Text text="Nazmul Hasan" />
           </div>
           <div>
             <Text text="Phone " isBold />
           </div>
           <div>
-            <Text text="+8801990497796" />
+            <Text text="+8801755073552" />
           </div>
           <div>
             <Text text="Email " isBold />
           </div>
-          <Link href={`mailto:rafidulemon@gmail.com`}>
+          <Link href={`mailto:Nazmul.Hasan@g.bracu.ac.bd`}>
             <Text
-              text="rafidulemon@gmail.com"
+              text="Nazmul.Hasan@g.bracu.ac.bd"
               className="text-cyan-500 underline"
             />
           </Link>
@@ -51,7 +45,7 @@ const PersonalDetails = () => {
             <Text text="Date of birth " isBold />
           </div>
           <div>
-            <Text text="12 Nov 1997" />{" "}
+            <Text text="25 Aug 1995" />{" "}
           </div>
           <div>
             <Text text="Nationality " isBold />
@@ -63,7 +57,7 @@ const PersonalDetails = () => {
             <Text text="Address" isBold />
           </div>
           <div>
-            <Text text="Patiya, Chittagong, Bangladesh" />
+            <Text text="1212 Dhaka , Bangladesh" />
           </div>
         </Grid>
       </div>

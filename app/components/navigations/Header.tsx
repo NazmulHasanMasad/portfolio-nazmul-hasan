@@ -48,7 +48,7 @@ const Header = () => {
                   />
                 </div>
                 <Text
-                  text="RAFID"
+                  text="NAZMUL"
                   className="text-cyan-600 text-[24px] font-[600]  hidden md:flex"
                   isPoppins
                 />
@@ -81,7 +81,7 @@ const Header = () => {
                 className="flex flex-row gap-2 md:gap-4 items-center"
               >
                 <Text
-                  text="RAFID"
+                  text="NAZMUL"
                   className="text-cyan-600 text-[16px] font-[600]"
                   isPoppins
                 />

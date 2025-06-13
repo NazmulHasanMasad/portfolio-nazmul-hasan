@@ -7,13 +7,11 @@ const TyAnimation = () => {
   return (
     <TypeAnimation
       sequence={[
-        "Md. Rafidul Islam",
+        "Nazmul Hasan",
         1500,
         "Web Developer",
         1000,
         "Mobile Developer",
-        1000,
-        "UI/UX Designer",
         1000,
       ]}
       wrapper="span"

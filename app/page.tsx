@@ -153,7 +153,7 @@ const HomePage = () => {
                     />
                   </Button>
                 </Link>
-                <a href="rafid_cv.pdf" download="Md. Rafidul Islam Resume.pdf">
+                <a href="masad_cv.pdf" download="Nazmul Hasan Resume.pdf">
                   <Button theme="secondary">
                     <Text
                       text="Download CV"

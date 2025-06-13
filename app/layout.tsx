@@ -6,12 +6,12 @@ import { ThemeProvider } from "next-themes";
 import ChatIcon from "./components/display/ChatIcon";
 
 export const metadata: Metadata = {
-  title: "Md. Rafidul Islam",
-  description: "Portfolio website of Md. Rafidul Islam",
+  title: "Nazmul Hasan",
+  description: "Portfolio website of Nazmul Hasan",
   icons: {
     icon: "/images/icon.png",
   },
-  keywords: ["Md. Rafidul Islam", "Portfolio", "Md. Rafidul Islam Portfolio"],
+  keywords: ["Nazmul Hasan", "Portfolio", "Nazmul Hasan Portfolio"],
 };
 
 export default function RootLayout({

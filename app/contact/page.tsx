@@ -51,7 +51,7 @@ const contactPage = () => {
               className="w-full text-center text-[12px] md:text-[16px] text-primary dark:text-cyan-500"
             />
             <Text
-              text="rafidulemon@gmail.com"
+              text="Nazmul.Hasan@g.bracu.ac.bd"
               isBold
               className="w-full text-center text-[12px] md:text-[16px] underline text-gray-700 dark:text-white"
             />
