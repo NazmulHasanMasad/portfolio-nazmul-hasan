@@ -113,9 +113,7 @@ const HomePage = () => {
     : professionalProjects;
   return (
     <section>
-      {showPopup && (
-        <FlashScreen/>
-      )}
+      {showPopup && <FlashScreen />}
 
       {!showPopup && (
         <div>
@@ -220,6 +218,48 @@ const HomePage = () => {
                   <SkillBar label="Adobe XD" level={60} />
                 </div>
               </div>
+            </div>
+
+            {/* LeetCode Profile */}
+            <div className="w-full flex flex-col items-center justify-center mt-10">
+              <Text
+                text="Problem Solving (DSA)"
+                isNosifer
+                className="dark:text-white text-primary_dark text-[20px] md:text-[30px] lg:text-[40px] xl:text-[48px]"
+              />
+
+              {/* LeetCode Card */}
+              <div className="mt-6 bg-gradient-to-r from-cyan-500 to-teal-600 rounded-xl p-6 shadow-lg w-[300px] md:w-[400px] text-white">
+                <h3 className="text-xl font-bold mb-2">LeetCode Stats</h3>
+                <div className="flex flex-col gap-2">
+                  <div className="flex justify-between">
+                    <span>Total Solved:</span>
+                    <span>325</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Easy:</span>
+                    <span>120</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Medium:</span>
+                    <span>155</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Hard:</span>
+                    <span>50</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* View Profile Button */}
+              <a
+                href="https://leetcode.com/u/user4533MM/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 px-6 py-3 bg-gradient-to-r from-primary-400 to-secondary-600 text-white rounded-xl text-[16px] md:text-[20px] transition transform hover:scale-105"
+              >
+                View My LeetCode Profile
+              </a>
             </div>
           </div>
 
