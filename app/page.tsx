@@ -14,7 +14,6 @@ import SkillBar from "./components/animations/SkillBar";
 import FlashScreen from "./components/FlashScreen";
 
 const HomePage = () => {
-  const [showPersonalProjects, setShowPersonalProjects] = useState(true);
   const [showPopup, setShowPopup] = useState(true);
 
   useEffect(() => {
@@ -31,86 +30,48 @@ const HomePage = () => {
     }
   }, []);
 
-  const personalProjects = [
-    {
-      src: "/images/projects/alizaAi.jpg",
-      title: "Virtual Assistant",
-      details:
-        "An AI-powered virtual assistant capable of handling user queries, setting reminders, and performing various tasks.",
-      github: "https://github.com/Rafidulemon/myVirtualAssistant",
-      link: "#",
-    },
-    {
-      src: "/images/projects/portfolio-web.png",
-      title: "Portfolio Website",
-      details:
-        "A visually stunning and responsive portfolio website showcasing skills, projects, and achievements.",
-      github: "https://github.com/Rafidulemon/rafidul-portfolio",
-      link: "https://rafidul-portfolio.vercel.app",
-    },
-    {
-      src: "/images/projects/hr_mgt.jpeg",
-      title: "HR Management App",
-      details:
-        "A modern HR management application to handle employee records, payroll, and organizational tasks effectively.",
-      github: "https://github.com/Rafidulemon/hr_mgt",
-      link: "https://hr-mgt.netlify.app/",
-    },
-    {
-      src: "/images/projects/hospital.jpg",
-      title: "Hospital App",
-      details:
-        "A hospital management web app featuring patient records, doctor schedules, and appointment booking.",
-      github: "https://github.com/Rafidulemon/demo_hospital",
-      link: "https://demo-hospital-theta.vercel.app",
-    },
-    {
-      src: "/images/projects/career.jpg",
-      title: "Carriastic Website",
-      details:
-        "A career development website showcasing various job opportunities and resources for career growth.",
-      github: "https://github.com/Rafidulemon/carriastic",
-      link: "https://carriasticapp.vercel.app/",
-    },
-  ];
-
-  const professionalProjects = [
-    {
-      src: "/images/projects/moeguide.png",
-      title: "MoeGuide",
-      details:
-        "A comprehensive guide application featuring detailed itineraries, activities, and location-based recommendations.",
-      link: "https://moeguide-app.vercel.app/",
-      github: "https://github.com/",
-    },
-    {
-      src: "/images/projects/suiri.png",
-      title: "Suirikyou",
-      details:
-        "A plafrorm for online test and getting results, certificates, and scholarships.",
-      link: "https://suirikyou.vercel.app/",
-      github: "https://github.com/",
-    },
-    {
-      src: "/images/projects/rag.png",
-      title: "Raggie",
-      details: "An inhouse gpt platform for ai chatting",
-      link: "https://raggie-swart.vercel.app/",
-      github: "https://github.com/",
-    },
-    {
-      src: "/images/projects/benrimono.png",
-      title: "Benrimono",
-      details:
-        "A platform for user and driver management including live location, calling the driver",
-      link: "https://benrimono-api-next.vercel.app",
-      github: "https://github.com/",
-    },
-  ];
-
-  const currentProjects = showPersonalProjects
-    ? personalProjects
-    : professionalProjects;
+  const projects = [
+      {
+        src: "/images/projects/speech.png",
+        title: "Speech Recognition",
+        details:
+          "A voice-activated AI assistant that uses speech recognition to understand user commands, manage reminders, answer questions, and execute tasks in real-time.",
+        github: "https://github.com/NazmulHasanMasad/speech_recognition",
+        link: "#",
+      },
+      {
+        src: "/images/projects/portfolio-web.png",
+        title: "Portfolio Website",
+        details:
+          "A visually stunning and responsive portfolio website showcasing skills, projects, and achievements.",
+        github: "https://github.com/NazmulHasanMasad/portfolio-nazmul-hasan",
+        link: "https://portfolio-nazmul-hasan.vercel.app/",
+      },
+      {
+        src: "/images/projects/hr_mgt.jpeg",
+        title: "HR Management App",
+        details:
+          "A modern HR management application to handle employee records, payroll, and organizational tasks effectively.",
+        github: "https://github.com/NazmulHasanMasad/Hr_management",
+        link: "#",
+      },
+      {
+        src: "/images/projects/mouse.png",
+        title: "Virtual Mouse",
+        details:
+          "A computer vision-based virtual mouse that uses hand gestures captured via webcam to control cursor movement and perform clicks, eliminating the need for a physical mouse.",
+        github: "https://github.com/NazmulHasanMasad/mouse",
+        link: "#",
+      },
+      {
+        src: "/images/projects/sc.png",
+        title: "Scientefic Calculator",
+        details:
+          "A Python-based scientific calculator with a user-friendly interface, supporting advanced mathematical operations such as trigonometric functions, logarithms, exponentiation, and more.",
+        github: "https://github.com/NazmulHasanMasad/scientefic-calculator",
+        link: "#/",
+      },
+    ];
   return (
     <section>
       {showPopup && <FlashScreen />}
@@ -316,35 +277,10 @@ const HomePage = () => {
               <Line className="w-full border-cyan-500" />
             </div>
 
-            {/* Tabs */}
-            <div className="w-full flex flex-row items-center justify-center gap-4 md:gap-10 my-6">
-              <button
-                className={`${
-                  showPersonalProjects
-                    ? "bg-primary text-white py-1 px-4 rounded-xl"
-                    : "border border-primary text-primary dark:text-white rounded-xl py-1 px-4"
-                } text-[16px] md:text-[24px] focus:outline-none`}
-                onClick={() => setShowPersonalProjects(true)}
-              >
-                Personal Projects
-              </button>
-
-              <button
-                className={`${
-                  !showPersonalProjects
-                    ? "bg-primary text-white py-1 px-4 rounded-xl"
-                    : "border border-primary text-primary dark:text-white rounded-xl py-1 px-4"
-                } text-[16px] md:text-[24px] focus:outline-none`}
-                onClick={() => setShowPersonalProjects(false)}
-              >
-                Professional Projects
-              </button>
-            </div>
-
             {/* Project Cards */}
-            <div className="w-full flex flex-col gap-10">
+            <div className="w-full flex flex-col mt-6 gap-10">
               <div className="flex flex-wrap items-center justify-center gap-10">
-                {currentProjects.map((project, index) => (
+                {projects.map((project, index) => (
                   <ProjectsCard
                     key={index}
                     src={project.src}
@@ -355,16 +291,6 @@ const HomePage = () => {
                   />
                 ))}
               </div>
-
-              <Link
-                href={"/projects"}
-                className="flex flex-row items-center justify-center"
-              >
-                <Text
-                  text="See More..."
-                  className="text-primary dark:text-cyan-200 text-[16px] lg:text-[20px] xl:text-[24px]"
-                />
-              </Link>
             </div>
           </div>
         </div>
