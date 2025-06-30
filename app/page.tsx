@@ -195,7 +195,7 @@ const HomePage = () => {
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-between">
                     <span>Total Solved:</span>
-                    <span>325</span>
+                    <span>205</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Easy:</span>
@@ -203,11 +203,11 @@ const HomePage = () => {
                   </div>
                   <div className="flex justify-between">
                     <span>Medium:</span>
-                    <span>155</span>
+                    <span>80</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Hard:</span>
-                    <span>50</span>
+                    <span>5</span>
                   </div>
                 </div>
               </div>
