@@ -72,7 +72,7 @@ const AboutPage = () => {
           <div>
             <div className="flex flex-row items-center justify-center">
               <MotionDiv
-                src="/images/ai-image-1.jpg"
+                src="/images/ai_image_1.jpg"
                 isCircularBorder
                 isTransparentBG
                 isRoundedImage

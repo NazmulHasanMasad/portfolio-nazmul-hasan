@@ -12,8 +12,8 @@ const contactPage = () => {
     <div className="w-full">
       <PageTitle name="CONTACT ME" />
       <Grid colCount={12} className="mt-10">
-        <MotionDiv src="/images/ai-image-1.jpg" className="col-span-4 hidden md:flex" isTransparentBG isRoundedImage/>
-        <MotionDiv src="/images/ai-image-1.jpg" className="col-span-12 md:hidden flex flex-row items-center justify-center" isTransparentBG isRoundedImage height_width={200}/>
+        <MotionDiv src="/images/ai_image_1.jpg" className="col-span-4 hidden md:flex" isTransparentBG isRoundedImage/>
+        <MotionDiv src="/images/ai_image_1.jpg" className="col-span-12 md:hidden flex flex-row items-center justify-center" isTransparentBG isRoundedImage height_width={200}/>
         <Flex
           direction="col"
           className="w-full col-span-12 md:col-span-8"
